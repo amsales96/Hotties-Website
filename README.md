@@ -1,2 +1,1 @@
-# Hotties-Website
-Code base for the Hotties Roll Dice website
+Welcome to my portfolio website!  It's still pretty basic at the moment but I hope to improve it as time goes on.
