@@ -314,6 +314,7 @@ ul.no-bullets {
     margin: 0.5em auto 1em;
     background: var(--clr-light);
     opacity: 0.25;
+    
 }
 
 .services {
@@ -321,8 +322,11 @@ ul.no-bullets {
 }
 
 .service {
-    max-width: 500px;
-    margin: 0 auto;
+    max-width: 800px;
+    margin: 0.5em auto;
+    margin-right: 2.5em;
+    
+    position: center;
 }
 .feservice {
     padding-bottom: 25px; 
@@ -353,21 +357,21 @@ ul.no-bullets {
     }
 }
 
-.about-me {
+.about-us {
     max-width: 1000px;
     margin: 0 auto;
 }
 
-.about-me__img {
+.about-us__img {
     box-shadow: var(--bs);
 }
 
-.about-me__writing{
+.about-us__writing{
     font-size: 1.25rem;
 }
 
 @media (min-width: 600px) {
-    .about-me {
+    .about-us {
         display: grid;
         grid-template-columns: 1fr 200px;
         grid-template-areas: 
@@ -391,7 +395,7 @@ ul.no-bullets {
         padding-right: calc(200px + 4em);
     }
     
-    .about-me__img {
+    .about-us__img {
         grid-area: img;
         position: relative;
         z-index: 2;
@@ -440,7 +444,7 @@ ul.no-bullets {
 /* footer */
 
 .footer {
-    background: #111;
+    background: #000000;
     color: var(--clr-accent);
     text-align: center;
     padding: 2.5em 0;
